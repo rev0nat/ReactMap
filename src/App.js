@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <header>
+      </header>
       <div id="map">
       	<Map />
       </div>
-      </header>
     </div>
   );
 }

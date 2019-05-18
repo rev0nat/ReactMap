@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 export default class Map extends React.Component {
 	componentDidMount(){
 		this.map = L.map('map', {
-			center: [58, 16],
+			center: [48.864716, 2.349014],
 			zoom: 10,
 			zoomControl: false
 		});
